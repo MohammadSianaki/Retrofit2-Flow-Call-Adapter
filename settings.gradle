@@ -1,2 +1,2 @@
-include ':app', ':FlowRetrofitAdapter'
+include ':app', ':FlowAdapter'
 rootProject.name='RetrofitFlowAdapter'

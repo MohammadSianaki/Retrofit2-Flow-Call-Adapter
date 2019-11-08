@@ -1,4 +1,4 @@
-package me.sianaki.lib
+package me.sianaki.flowretrofitadapter
 
 import kotlinx.coroutines.flow.Flow
 import retrofit2.CallAdapter
