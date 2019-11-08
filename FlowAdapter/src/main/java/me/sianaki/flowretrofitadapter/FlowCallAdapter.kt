@@ -27,6 +27,7 @@ class ResponseCallAdapter<T>(
                             continuation.resume(response)
                         }
                     })
+                    continuation.invokeOnCancellation { call.cancel() }
                 }
             )
         }
@@ -54,6 +55,7 @@ class BodyCallAdapter<T>(private val responseType: Type) : CallAdapter<T, Flow<T
                             }
                         }
                     })
+                    continuation.invokeOnCancellation { call.cancel() }
                 }
             )
         }
