@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/MohammadSianaki/Retrofit2-Flow-Call-Adapter.svg)](https://jitpack.io/#MohammadSianaki/Retrofit2-Flow-Call-Adapter)
+
 # Retrofit2-Flow-Call-Adapter
 A Retrofit 2 `CallAdapter.Factory` for [Kotlin Flows](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/-flow/)
 
