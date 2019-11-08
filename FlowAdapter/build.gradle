@@ -1,5 +1,7 @@
 apply plugin: 'java-library'
 apply plugin: 'org.jetbrains.kotlin.jvm'
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.MohammadSianaki'
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.squareup.retrofit2:retrofit:2.6.1'
